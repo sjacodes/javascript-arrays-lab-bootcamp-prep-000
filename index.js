@@ -23,7 +23,7 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  appendKitten(name)
+  return[]
 }
 
 describe('appendKitten(name)', function() {
