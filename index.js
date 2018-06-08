@@ -12,8 +12,10 @@ function destructivelyPrependKitten(name) {
   return kittens
 }
 
-function destructivelyRemoveLastKitten()
-
+function destructivelyRemoveLastKitten() {
+  kittens.shift()
+  return kittens
+}
 describe('destructivelyRemoveLastKitten()', function() {
     it('removes the last kitten from the kittens array', function() {
       destructivelyRemoveLastKitten()
