@@ -13,13 +13,6 @@ function destructivelyPrependKitten(name) {
 }
 
 function destructivelyRemoveLastKitten() {
-  kittens.shift()
+  kittens.pop()
   return kittens
 }
-describe('destructivelyRemoveLastKitten()', function() {
-    it('removes the last kitten from the kittens array', function() {
-      destructivelyRemoveLastKitten()
-
-      expect(window.kittens).toEqual(["Milo", "Otis"])
-    })
-  })
